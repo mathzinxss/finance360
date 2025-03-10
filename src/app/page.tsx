@@ -1,6 +1,6 @@
+import { redirect } from "next/navigation"
 
 export default function Home() {
-  return (
-    <div>Teste página inicial</div>
-  );
+  redirect("/sign-in")
 }
+
